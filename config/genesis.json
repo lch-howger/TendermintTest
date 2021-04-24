@@ -1,0 +1,35 @@
+{
+  "genesis_time": "2020-11-24T06:33:00.571760843Z",
+  "chain_id": "test-chain-GUKp2U",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "validators": [
+    {
+      "address": "412743E0E1707BA459914FBABF8ED25DE68E0772",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "OR+b865dlgj+KMaankUrbGaxdejrbl6LH8IoF6Zrgbc="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": ""
+}
